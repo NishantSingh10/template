@@ -89,6 +89,8 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+        - Opera
+        - None of the Above
         
   - type: textarea
     id: logs

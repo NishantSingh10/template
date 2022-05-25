@@ -55,7 +55,7 @@ body:
     id: Cloud
     attributes:
       label: Are you Doing Operation on cloud, if yes then which one ?
-      description: you can choose multiple cloud, if you are using.
+      description: you can choose multiple cloud, if you are using else just choose Local.
       multiple: true
       options:
         - Amazon Web Service
@@ -63,7 +63,8 @@ body:
         - Google Cloud
         - Oracle CLoud
         - IBM Cloud
-        - None of the Above
+        - None of the above Cloud
+        - Local
   
   - type: dropdown
     id: OS

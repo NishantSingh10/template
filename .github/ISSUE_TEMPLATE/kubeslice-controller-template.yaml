@@ -23,7 +23,6 @@ body:
       label: What happened, any specific process in which you are facing the issue ?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: false
       
@@ -31,9 +30,8 @@ body:
     id: line-number
     attributes:
       label: Any specific code line, in which you are facing issue ?
-      description: plase put the line number here ....
-      placeholder: Tell us Line number !
-      value: "A bug happened!"
+      placeholder: plase put the line number here ....
+      description: Tell us Line number !
     validations:
       required: false
       

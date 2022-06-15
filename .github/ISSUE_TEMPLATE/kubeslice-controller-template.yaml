@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: line-number
     attributes:
-      label: Any specific code line, in which you are facing issue ?
+      label: Any specific code line, in which you are facing an issue ?
       placeholder: please put the line number here
       description: Tell us Line number !
     validations:
@@ -38,7 +38,7 @@ body:
   - type: textarea
     id: specific-file
     attributes:
-      label: Any specific File, in which you are facing issue ?
+      label: Any specific File, in which you are facing an issue ?
       placeholder: please put the file name here, also you can tell us the line number for a specific file in which you are facing the issue.
       description: Tell us File name !
     validations:
@@ -50,7 +50,7 @@ body:
     attributes:
       label: Are you facing an issue related to edge cases, if yes, please give us more info ?
       placeholder: plase put the edge cases detail here or any other info which you want to share with us ragrding edge cases.
-      description: Tell us Edge case detail !
+      description: Tell us Edge case details !
     validations:
       required: false
       
@@ -67,7 +67,7 @@ body:
   - type: textarea
     id: scenario
     attributes:
-      label: please tell us more detail if you are following any specific scenario.
+      label: please tell us in more detail if you are following any specific scenario.
       placeholder: please provide all the scenario details, it will be helpful for troubleshooting the concern problem.
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
     validations:

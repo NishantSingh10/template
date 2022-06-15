@@ -49,7 +49,7 @@ body:
     id: edge-cases
     attributes:
       label: Are you facing an issue related to edge cases, if yes, please give us more info ?
-      placeholder: plase put the edge cases detail here or any other info which you want to share with us ragrding edge cases.
+      placeholder: please put the edge cases detail here or any other info which you want to share with us ragrding edge cases.
       description: Tell us Edge case details !
     validations:
       required: false

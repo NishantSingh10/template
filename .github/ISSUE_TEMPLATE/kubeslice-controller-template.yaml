@@ -1,4 +1,4 @@
-name: Avesha KubeSice-cotroller issue
+name: Avesha KubeSice controller issue
 description: For Bugs Related to Kubeslice controller installation
 title: "Give a title to your Problem !!  "
 
@@ -51,7 +51,6 @@ body:
       label: Are you facing an issue related to edge cases, if yes, please give us more info ?
       placeholder: plase put the edge cases detail here or any other info which you want to share with us ragrding edge cases.
       description: Tell us Edge case detail !
-      value: "A bug happened!"
     validations:
       required: false
       
@@ -71,6 +70,15 @@ body:
       label: please tell us more detail if you are following any specific scenario.
       placeholder: please provide all the scenario details, it will be helpful for troubleshooting the concern problem.
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+    validations:
+      required: false
+      
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Any other issue which you are facing or any other improvement you want from Avesha ?
+      placeholder: if your problem don't comes under the above given cateogry use this box to give us info for your specific problem or any improvement which you are looking from avesha, tell us ?
+      description: Describe your Specific Problem or the improvement, which you are finding from our side.
     validations:
       required: false
       

@@ -45,7 +45,7 @@ body:
     id: which-section
     attributes:
       label: in which section are you facing an issue ?
-      description: Also tell us, what did you expect to happen ?
+      description: if you are facing an issue in validation or creation, you can choose multiple section according to your issue.
       multiple: true
       options: 
         - In Installing the certificate manager

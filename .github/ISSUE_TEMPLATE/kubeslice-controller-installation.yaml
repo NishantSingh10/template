@@ -17,15 +17,7 @@ body:
     validations:
       required: false
       
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened ?
-      description: Also tell us, what did you expect to happen ?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
+
       
   - type: input
     id: ChartVersion
@@ -49,12 +41,33 @@ body:
         - Redhat  OS
         - Windows OS
         
-  
+  - type: dropdown
+    id: which-section
+    attributes:
+      label: in which section are you facing an issue ?
+      description: Also tell us, what did you expect to happen ?
+      multiple: true
+      options: 
+        - In Installing the certificate manager
+        - In Creation of values File
+        - In Creation of Project
+    validations:
+      required: true
+        
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened, According to above selected Area please describe here ?
+      description: Also tell us, what did you expect to happen ?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
         
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: Provide the Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
       

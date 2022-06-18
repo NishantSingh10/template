@@ -39,8 +39,8 @@ body:
     id: edge-cases
     attributes:
       label: Did you got a bug related to edge cases, if yes, please give us more info ?
-      placeholder: please put the edge cases detail here or any other info which you want to share with us ragrding edge cases.
-      description: Tell us Edge case details !
+      description: please put the edge cases detail here or any other info which you want to share with us ragrding edge cases.
+      placeholder: Tell us Edge case details !
     validations:
       required: false
       
@@ -58,8 +58,7 @@ body:
     id: scenario
     attributes:
       label: Did you followed any specific scenario and got the bug ?
-      placeholder: please provide all the scenario details, it will be helpful for troubleshooting the concern Bug.
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: please provide all the scenario details, it will be helpful for troubleshooting the concern Bug.
     validations:
       required: false
       

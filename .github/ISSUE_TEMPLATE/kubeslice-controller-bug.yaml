@@ -30,8 +30,8 @@ body:
     id: line-number
     attributes:
       label: Are you facing an bug because of any line in the code for specific file ?
-      placeholder: please put the line number here with file name.
-      description: "ex: line number: 3, file name: project.yaml"
+      description: please put the line number here with file name.
+      placeholder: "ex: line number: 3, file name: project.yaml"
     validations:
       required: false
       

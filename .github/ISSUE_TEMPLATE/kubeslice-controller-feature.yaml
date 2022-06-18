@@ -1,0 +1,81 @@
+name: Avesha Kubeslice Controller Feature
+description: For Issues Related to Improvement of Kubeslice controller Feature.
+title: "Give a title to your Problem for feature improvement .."
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info regarding this ?
+      placeholder: ex. email@example.com
+    validations:
+      required: True
+      
+
+      
+  - type: input
+    id: ChartVersion
+    attributes:
+      label: Enter the latest Kubeslice controller Chart Version, which you are using right now. 
+      description: Tell us the Chart Version, in which you looking for the improvement.
+      placeholder: 0.0.0
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: OS
+    attributes:
+      label: Any feature which is not working on specific operating system ?
+      description: you can choose multiple Operating System, if you are facing issue with features.
+      multiple: true
+      options:
+        - Ubuntu  OS
+        - Mac     OS
+        - Amazon  OS
+        - Redhat  OS
+        - Windows OS
+        
+  - type: dropdown
+    id: which-section
+    attributes:
+      label: in which section are you looking for an improvement in features ?
+      description: if you want to improve multiple section features, you can choose multiple section according to your desire.
+      multiple: true
+      options: 
+        - In Installing the certificate manager
+        - In Creation of values File
+        - In Creation of Project
+    validations:
+      required: true
+        
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What should we improve ? According to above selected Section please describe here.
+      description: Also tell us, what did you expect to happen ?
+      placeholder: Tell us what you see !
+      value: "A bug happened!"
+    validations:
+      required: true
+        
+  - type: textarea
+    id: logs
+    attributes:
+      label: if you want to improve something by sharing log or not getting desired output for specific feature, please provide the Relevant log output.
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of conduct. [ Visit Avesha for more info ](https://avesha.io)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

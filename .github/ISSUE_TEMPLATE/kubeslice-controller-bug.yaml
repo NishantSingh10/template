@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: line-number
     attributes:
-      label: Are you facing an bug because of any line in the code for specific file ?
+      label: Are you facing an bug because of an line in the code for specific file ?
       description: please put the line number here with file name.
       placeholder: "ex: line number: 3, file name: project.yaml"
     validations:
@@ -48,7 +48,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: please put log output for your concerned problem.
+      label: please put log output for your concerned Bug.
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
     validations:

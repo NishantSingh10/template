@@ -22,7 +22,7 @@ body:
     attributes:
       label: What happened ? Please describe about the bug ?
       placeholder: Also tell us, what did you expect to happen and what else happened ?
-      description: Tell us more about bug
+      description: Tell us more about bug.
     validations:
       required: false
       

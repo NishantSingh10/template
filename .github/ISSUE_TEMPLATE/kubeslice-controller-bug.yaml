@@ -33,22 +33,12 @@ body:
       description: please put the line number here with file name.
       placeholder: "ex: line number: 3, file name: project.yaml"
     validations:
-      required: false
-      
-  - type: textarea
-    id: specific-file
-    attributes:
-      label: Can you please tell us more about the bug, such as what happened and what you expected to happen ?
-      placeholder: please describe your problem with as much as info you can
-      description: Tell us File name !
-    validations:
-      required: false
-      
+      required: false     
   
   - type: textarea
     id: edge-cases
     attributes:
-      label: Are you facing an issue related to edge cases, if yes, please give us more info ?
+      label: Did you got a bug related to edge cases, if yes, please give us more info ?
       placeholder: please put the edge cases detail here or any other info which you want to share with us ragrding edge cases.
       description: Tell us Edge case details !
     validations:
@@ -67,18 +57,9 @@ body:
   - type: textarea
     id: scenario
     attributes:
-      label: please tell us in more detail if you are following any specific scenario.
-      placeholder: please provide all the scenario details, it will be helpful for troubleshooting the concern problem.
+      label: Did you followed any specific scenario and got the bug ?
+      placeholder: please provide all the scenario details, it will be helpful for troubleshooting the concern Bug.
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-    validations:
-      required: false
-      
-  - type: textarea
-    id: improvement
-    attributes:
-      label: Any other issue which you are facing or any other improvement you want from Avesha ?
-      placeholder: if your problem don't comes under the above given cateogry use this box to give us info for your specific problem or any improvement which you are looking from avesha, tell us ?
-      description: Describe your Specific Problem or the improvement, which you are finding from our side.
     validations:
       required: false
       
